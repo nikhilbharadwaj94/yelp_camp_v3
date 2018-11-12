@@ -1,0 +1,16 @@
+one of the main re-factoring we will be doing in v3 is that we are creating a folder called 
+models and we are re-factoring the code such that we will be able to make the code more modular and 
+then we will be including all the modular codes in the different files
+
+>>The main aim here is to make app.js as clean and minimum as possible.
+
+>>He is creating seeds.js in v3.
+
+>>another imporatnat concept that i came across was "NESTED ROUTES".
+ for example:-
+ when we want to add new comments it dosent make sense to create a route /comments/new
+
+ Instead it will make more sense to keep the comment associated with a particular post.
+ So in this case we will create it as /campgrounds/:id/comments/new
+
+ >>
